@@ -47,16 +47,15 @@ img {
 }
 
 .header .container {
-    padding: 1440 72;
+    display: flex;
+        justify-content: space-between;
+        align-items: center;
     background-color: var(--accent-color);
 }
 
 .navigation {
 }
 
-.list{
-    list-style: none;
-}
 .logo{
     font-family: "Raleway", sans-serif;
     color: #4d5ae5;
@@ -71,9 +70,8 @@ img {
 }
 .nav-menu {
 }
-.list{
-    list-style: none;
-}
+
+
 .nav-item {
 
 }
@@ -131,7 +129,6 @@ img {
 }
 
 .button .container {
-    padding: 1440 600;
     background-color: var(--dark-color);
 }
 
@@ -143,6 +140,8 @@ img {
     color: var(--whitebck-color);
 }
 .button-executive {
+    display: flex;
+    margin: 0 auto;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -185,6 +184,12 @@ img {
 
 .list {
     list-style-type: none;
+    display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        list-style: none;
+        margin: o;
+        padding: 0;
 }
 .benefits-item {
 }
@@ -206,7 +211,6 @@ img {
 }
 
 .product .container {
-    padding: 1128 412;
 }
 
 .product-title {
@@ -232,7 +236,6 @@ img {
 }
 
 .team .container {
-    padding: 1440 732;
     background-color: var(--light-color);
 }
 
@@ -273,7 +276,8 @@ img {
 }
 
 .footer .container {
-    padding: 1440 312;
+    display: block;
+    justify-content: flex-start;
     background-color: var(--dark-color);
 }
 
