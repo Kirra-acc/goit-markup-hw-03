@@ -21,41 +21,16 @@ body {
     background-color: var(--whitebck-color);
 }
 
-/* Resetting defolt margins for h, p; margins, left-padding for lists */
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding-left: 0;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    margin: 0;
-}
-
-p {
-    margin: 0;
-}
-
-/* Setting all img as block-elements */
-img {
-    display: block;
-}
-
 /* header */
 
 .header {
+    background-size: 1440px, 72px;
 }
-
-.header .container {
-    display: flex;
-        justify-content: space-between;
-        align-items: center;
-    background-color: var(--accent-color);
-}
-
 .navigation {
 }
-
+.list{
+    list-style: none;
+}
 .logo{
     font-family: "Raleway", sans-serif;
     color: #4d5ae5;
@@ -70,8 +45,9 @@ img {
 }
 .nav-menu {
 }
-
-
+.list{
+    list-style: none;
+}
 .nav-item {
 
 }
@@ -125,13 +101,9 @@ img {
 /* button */
 .button{
     font-family: "Roboto", sans-serif;
+    background-color: var(--dark-color);
     text-align: center;
 }
-
-.button .container {
-    background-color: var(--dark-color);
-}
-
 .button-title {
     font-weight: 700;
     font-size: 56px;
@@ -140,8 +112,6 @@ img {
     color: var(--whitebck-color);
 }
 .button-executive {
-    display: flex;
-    margin: 0 auto;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -163,33 +133,18 @@ img {
 }
 /* benefits */
 .benefits {
+    background-size: 1128px, 104px;
 }
-
-.benefits .container {
-    padding: 1128 104;
-}
-
 .benefits-title {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    line-height: 1.2;
+    color: var(--herobck-color);
 }
-
 .list {
     list-style-type: none;
-    display: flex;
-        flex-wrap: wrap;
-        gap: 16px;
-        list-style: none;
-        margin: o;
-        padding: 0;
 }
 .benefits-item {
 }
@@ -209,10 +164,6 @@ img {
 /* product */
 .product {
 }
-
-.product .container {
-}
-
 .product-title {
     font-weight: 700;
     font-size: 36px;
@@ -233,12 +184,9 @@ img {
 
 /* team */
 .team {
-}
-
-.team .container {
     background-color: var(--light-color);
+    background-size: 360px, 300px;
 }
-
 .team-title {
     font-weight: 700;
     font-size: 36px;
@@ -273,14 +221,9 @@ img {
 
 /* footer */
 .footer{
-}
-
-.footer .container {
-    display: block;
-    justify-content: flex-start;
     background-color: var(--dark-color);
+    background-size: 1440px, 312px;
 }
-
 .footer-logo {
     font-family: "Raleway", sans-serif;
     color:var(--primary-color);
