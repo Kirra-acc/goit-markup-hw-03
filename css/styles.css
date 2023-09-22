@@ -134,6 +134,7 @@
 }
 .benefits-item {
     width: 264px;
+    width: calc((100% - 3 * 24px) / 4);
 }
 .benefits-subtitle {
     margin-bottom: 8px;
