@@ -75,7 +75,7 @@
 .hero {
     padding: 188px 0;
 
-    font-family: "Roboto", sans-serif;
+    font-family: var(--font-main);
     background-color: var(--dark-color);
     text-align: center;
 }
@@ -101,7 +101,7 @@
     cursor: pointer;
     margin: 0 auto;
 
-    font-family: "Roboto", sans-serif;
+    font-family: var(--font-main);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -148,6 +148,7 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: var(--text-color);
 }
 
 /* features styles */
@@ -169,7 +170,6 @@
 .product .list {
     display: flex;
     gap: 24px;
-    padding-top: 72px;
 }
 .product-item {
     width: calc((100% - 3 * 16px) / 3);
@@ -199,8 +199,6 @@
 .team .list {
     display: flex;
     gap: 24px;
-    padding-top: 72px;
-    padding-bottom: 120px;
 }
 .team-item {
     width: calc((100% - 3 * 24px) / 4);
@@ -257,6 +255,7 @@
     color: var(--light-color);
 }
 .footer-text {
+    max-width: 264px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -296,7 +295,7 @@
     border: 1px solid var(--accent-color);
     border-radius: 4px;
 
-    font-family: "Roboto", sans-serif;
+    font-family: var(--font-main);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
