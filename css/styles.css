@@ -64,7 +64,7 @@
     color: var(--pressed-color);
 }
 
-/* benefits styles */
+/* hero styles */
 .button {
     min-height: 600px;
     margin-bottom: 120px;
@@ -258,6 +258,14 @@
 }
 
 /* portfolio-interactive section */
+.main-front {
+    padding-top: 96px;
+}
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
 .interactive-btn{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -268,16 +276,31 @@
     background-color: var(--light-color);
     cursor: pointer;
 }
-.interactive-btn:hover{
-    color: var(--whitebck-color);
-    background-color: var(--pressed-color);
-}
-.interactive-btn:focus{
+.interactive-btn:hover,
+.interactive-btn:focus {
     color: var(--whitebck-color);
     background-color: var(--pressed-color);
 }
 
 /* portfolio-imgs */
+.media-wrapper {
+    padding-bottom: 115px;
+}
+.row-one {
+    padding-top: 66px;
+    display: flex;
+    gap: 24px;
+}
+.row-two {
+    padding-top: 54px;
+    display: flex;
+    gap: 24px;
+}
+.row-three {
+    padding-top: 53px;
+    display: flex;
+    gap: 24px;
+}
 .media-subtitle{
     font-weight: 500;
     font-size: 20px;
@@ -290,4 +313,8 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--text-color);
+}
+
+/* footer */
+.footer {
 }
